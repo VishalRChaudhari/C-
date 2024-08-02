@@ -88,13 +88,18 @@ int main()
      cout << R1.area() << endl;*/
 
     // Base B(7);
-    /*base *b;
+    /*
+    method 1 -> base class pointer to derived class object
+    base *b;
     b = new derived();
     b->x = 5;
     b;*/
-    derived d;
+
+    // method  2 -> base class pointer to derived class object
+    /*derived d;
     base *b = &d;
-    
+    b->x = 4;
+    cout << b->x;*/
 
     return 0;
 }
